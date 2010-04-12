@@ -1,5 +1,5 @@
 /* See license.txt */
-var lineBuffer = function(source) {
+var LineBuffer = function(source) {
     var lines, line, s;
 
     if (typeof source === 'string') {
